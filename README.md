@@ -27,4 +27,6 @@ The solution comprises four distinct steps:
 
 ## Architecture
 
-![Unified-Dashboard-For-Monitoring-Background-Processes](images/Architecture-System-Design.PNG)
+
+
+![Unified-Dashboard-For-MonitoringBackground-Processes](Images/Architecture-System-Design.PNG)
