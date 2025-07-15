@@ -1,1 +1,21 @@
-
+{
+    "Name": "event-input",
+    "Type": "Data Stream",
+    "DataSourceType": "Event Hub",
+    "EventHubProperties": {
+        "ServiceBusNamespace": "sumanth-realtime-poc",
+        "EventHubName": "jobpoc",
+        "SharedAccessPolicyName": "ReadWrite",
+        "SharedAccessPolicyKey": "********",
+        "ConsumerGroupName": "",
+        "AuthenticationMode": "ConnectionString"
+    },
+    "DataSourceCredentialDomain": "a5e045d4-3e75-47be-9f4d-a426d77b18d9.StreamAnalystics",
+    "Serialization": {
+        "Type": "Json",
+        "Encoding": "UTF8"
+    },
+    "PartitionKey": "",
+    "CompressionType": "None",
+    "ScriptType": "Input"
+}
