@@ -1,0 +1,6 @@
+SELECT
+    *
+INTO
+    [pbi-out]
+FROM
+    [event-input]
