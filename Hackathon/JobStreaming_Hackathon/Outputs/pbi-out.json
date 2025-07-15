@@ -1,1 +1,12 @@
-
+{
+    "Name": "pbi-out",
+    "DataSourceType": "Power BI",
+    "PowerBIProperties": {
+        "GroupName": "POC IDW 10-30-2023 to test streaming datasets",
+        "GroupId": "dd6280a5-4be6-4a00-a727-b811c46a6154",
+        "Dataset": "JobStream-DS",
+        "Table": "JobStream-Tbl",
+        "AuthenticationMode": "UserToken"
+    },
+    "ScriptType": "Output"
+}
